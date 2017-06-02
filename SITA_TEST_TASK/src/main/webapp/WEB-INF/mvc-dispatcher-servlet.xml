@@ -7,7 +7,7 @@
         http://www.springframework.org/schema/context 
         http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
-	<context:component-scan base-package="com.beingjavaguys.controller" />
+	<context:component-scan base-package="com.sitatesttask.controller" />
 
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -19,7 +19,7 @@
 		</property>
 	</bean>
 
-	<bean id="fileValidator" class="com.beingjavaguys.validator.FileValidator" />
+	<bean id="fileValidator" class="com.sitatesttask.validator" />
 
 	<bean id="multipartResolver"
 		class="org.springframework.web.multipart.commons.CommonsMultipartResolver" />
